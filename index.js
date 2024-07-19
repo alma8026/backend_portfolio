@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // Configuración de CORS para permitir solicitudes desde localhost:4200
 app.use(cors({
-    origin: 'http://localhost:4200',
+    origin: 'https://alma8026.github.io',
     methods: ['POST'], // Métodos permitidos
     allowedHeaders: ['Content-Type'], // Encabezados permitidos
   }));
